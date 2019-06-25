@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIstemaViviendas", "SIstemaViviendas\SIstemaViviendas.csproj", "{12A15B27-ABE1-4C59-A324-64A7916FDE1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaViviendas", "SIstemaViviendas\SistemaViviendas.csproj", "{12A15B27-ABE1-4C59-A324-64A7916FDE1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{5B1FCC8E-A6BB-479E-85DC-42F8A3ECCFFD}"
 EndProject

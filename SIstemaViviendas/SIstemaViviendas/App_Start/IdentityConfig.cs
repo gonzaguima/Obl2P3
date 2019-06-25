@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using SIstemaViviendas.Models;
+using SistemaViviendas.Models;
 
-namespace SIstemaViviendas
+namespace SistemaViviendas
 {
     public class EmailService : IIdentityMessageService
     {

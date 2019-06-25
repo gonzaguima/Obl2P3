@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(SIstemaViviendas.Startup))]
-namespace SIstemaViviendas
+[assembly: OwinStartupAttribute(typeof(SistemaViviendas.Startup))]
+namespace SistemaViviendas
 {
     public partial class Startup
     {
