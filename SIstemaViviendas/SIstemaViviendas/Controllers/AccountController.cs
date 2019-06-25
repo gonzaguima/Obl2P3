@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using SIstemaViviendas.Models;
+using SistemaViviendas.Models;
 
-namespace SIstemaViviendas.Controllers
+namespace SistemaViviendas.Controllers
 {
     [Authorize]
     public class AccountController : Controller

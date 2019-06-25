@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using SIstemaViviendas.Models;
+using SistemaViviendas.Models;
 
-namespace SIstemaViviendas
+namespace SistemaViviendas
 {
     public partial class Startup
     {
