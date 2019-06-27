@@ -240,6 +240,7 @@
     <Content Include="Views\Vivienda\Index.cshtml" />
     <Content Include="Views\Sorteo\Index.cshtml" />
     <Content Include="Views\Sorteo\AgregarPostulante.cshtml" />
+    <Content Include="Views\Vivienda\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
