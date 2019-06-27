@@ -9,3 +9,7 @@ SIstemaViviendas/SIstemaViviendas/SIstemaViviendas.csproj.user
 *.config
 *.cache
 *.cache
+SIstemaViviendas/.vs/SIstemaViviendas/v14/.suo
+SIstemaViviendas/Dominio/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+SIstemaViviendas/SIstemaViviendas/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.cache
