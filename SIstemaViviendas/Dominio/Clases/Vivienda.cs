@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio.Models
 {
@@ -26,7 +25,7 @@ namespace Dominio.Models
         [Range(1, 9999, ErrorMessage = "El numero de puerta debe ser mayor a 0 y menor a 10000")]
         public int numPuerta { get; set; } // numero de puerta de la vivienda
 
-        [ForeignKey "Barrio"] 
+        [ForeignKey ("Barrio")] 
         public int barrioId { get; set; } // id barrio de la vivienda
         public Barrio barrio { get; set; } //barrio
 
