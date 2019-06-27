@@ -28,8 +28,6 @@ namespace Dominio.Models
         [Required]
         public string pass { get; set; } //pass usuario
 
-        public bool esAdjudicatario { get; set; } // si ya gano un sorteo
-
         public bool esJefe { get; set; } // si es 
 
         [Required(ErrorMessage = "Año de la vivienda requerido")]
@@ -37,7 +35,7 @@ namespace Dominio.Models
         public DateTime fechaNac { get; set; } //fecha de nacimiento, mayor de 18
 
         public virtual ICollection<Sorteo> sorteos { get; set; } // coleccion de sorteos del usuario
-
+        public virtual Sorteo sorteo { get; set; } // Sorteo ganado
 
         // metodo si es jefe
         //metodo adjudicatario
