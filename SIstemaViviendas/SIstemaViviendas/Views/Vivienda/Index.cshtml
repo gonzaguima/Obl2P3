@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Buscar Vivienda";
+}
+
+<h2>Buscar Vivienda</h2>
+
+<div>
+    Cantidad de baños:
+    <input type="number" name="txtBanios" value="" />
+    Rango de precio:
+    <input type="number" name="txtMinimo" value="" placeholder="Minimo"/>
+    <input type="number" name="txtMaximo" value="" placeholder="Maximo"/>
+    Barrio:
+    <select id="sBarrio">
+    <option value="0">Seleccione un barrio</option>
+        @foreach (Json i in Barrios)
+        {
+            <option value="@i.idBarrio">@i.NombreBarrio</option>
+        }
+    </select>
+    Estado:
+    Nuevo <input type="radio" value="nuevo" />
+    Usado <input type="radio" value="usado" />
+
+    <button onclick=""/> @*Enviar a donde tenga que ir*@ 
+</div>

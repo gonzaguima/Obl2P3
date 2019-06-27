@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h2>Ver los sorteos</h2>
+
+<select id="sorteo">
+    <option value="0">Seleccione un sorteo para ver</option>
+    @foreach (var i in Sorteos) @*Ordenar primero los no sorteados luego los sorteados*@
+    {
+        <option value="i.idSorteo">@i.Barrio, @i.fecha</option>
+    }
+    @*Ver como filtrar por tipo de usuarios*@
+</select>
+
+@if(Session.User == 'Jefe')
+{
+    <button name="Sortear" onclick="" />
+}
+
+<label>
+    @if(sorteo.Estado) @*Valor bool supongamos*@
+    {
+        //Mostrar ganadores
+    }
+    else
+    {
+        //Mostrar fecha del sorteo
+    }
+</label>

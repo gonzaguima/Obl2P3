@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Agregar Postulante";
+}
+
+<h2>Agregar Postulante</h2>
+
+@if (Session.User != 'ganador')
+{
+    <select id="sorteo">
+        <option value="0">Seleccione un sorteo para ver</option>
+        @foreach (var i in Sorteos) @*Ordenar primero los no sorteados luego los sorteados*@
+        {
+            <option value="i.idSorteo">@i.Barrio, @i.fecha</option>
+        }
+        @*Ver como filtrar por tipo de usuarios*@
+    </select>
+
+    <button>Postularme</button>
+}
+else
+{
+    <h3>Usted no dispone de esta opcion.</h3>
+}
