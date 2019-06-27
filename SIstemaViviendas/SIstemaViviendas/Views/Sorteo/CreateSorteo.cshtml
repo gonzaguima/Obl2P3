@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Crear Sorteo";
+}
+
+<h2>Crear Sorteo</h2>
+
+<form>
+    <input type="date" name="txtFecha" value="@DateTime.Now" required/>
+    <input type="time" name="txtHora" value="00:00" required/>
+    Desplegar los barrios
+    <select id="sBarrio">@* Hacer en el onclick para que se carguen las viviendas *@
+        <option value="0">Seleccione un barrio</option>
+    @foreach (Json i in Barrios)
+    {
+        <option value="@i.idBarrio">@i.NombreBarrio</option>
+    }
+    </select>
+    Desplegar las viviendas de ese barrio
+    <select>
+        <option value="0">Seleccione una vivienda</option>
+    @foreach (Json i in Viviendas)
+    {
+        @if (i.idBarrio == sBarrio.value)
+        {
+            <option value="@i.idVivienda">@i.NombreVivienda</option>
+        }
+    }
+    </select>
+
+    <button type="submit" title="Guardar"/>
+</form>
