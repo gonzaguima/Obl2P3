@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Vivienda";
+}
+
+<h2>Cambiar estado</h2>
+
+<select id="sorteo">
+    <option value="0">Seleccione un sorteo para ver</option>
+    @foreach (var i in Viviendas) @*Ordenar primero los no sorteados luego los sorteados*@
+    {
+        <option value="i.idVivienda">@i.Direccion, @i.Numero</option>
+    }
+</select>
+
+<button onclick="">Cambiar estado</button>
