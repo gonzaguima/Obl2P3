@@ -45,9 +45,9 @@ namespace Dominio.Models
         [Required(ErrorMessage = "Metraje de la vivienda requerido")]
         [Range(1, Int32.MaxValue, ErrorMessage = "Metraje debe ser mayor a 0")]
         public int metraje { get; set; } //metraje de la vivienda
-
+        
         [Required(ErrorMessage = "Año de la vivienda requerido")]
-        [Range(1990, DateTime.Now.Year, ErrorMessage = "Año debe ser mayor a 1990")]
+        [Range(1990, 2019, ErrorMessage = "Año debe ser mayor a 1990")]
         public int anioViv { get; set; }
         
         [Required(ErrorMessage = "Precio de la vivienda requerido")]
