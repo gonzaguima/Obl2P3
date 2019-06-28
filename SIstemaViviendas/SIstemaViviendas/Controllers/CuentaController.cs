@@ -6,27 +6,44 @@ using System.Web.Mvc;
 
 namespace SIstemaViviendas.Controllers
 {
-    public class SorteoController : Controller
+    public class CuentaController : Controller
     {
-        // GET: Sorteo
+        // GET: Cuenta
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: Sorteo/Details/5
+        //POST: Login
+        [HttpPost]
+        public ActionResult Login(string user, string pass)
+        {
+            //Dominio.Models.Usuario u = Dominio.Repo.VarlidarUsuario(user, pass);
+            if (true) //user y pass validos
+            {
+                Session["User"] = user;
+
+                return View();
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        // GET: Cuenta/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Sorteo/Create
+        // GET: Cuenta/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Sorteo/Create
+        // POST: Cuenta/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -42,13 +59,13 @@ namespace SIstemaViviendas.Controllers
             }
         }
 
-        // GET: Sorteo/Edit/5
+        // GET: Cuenta/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Sorteo/Edit/5
+        // POST: Cuenta/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -64,44 +81,19 @@ namespace SIstemaViviendas.Controllers
             }
         }
 
-        // GET: Sorteo/Delete/5
+        // GET: Cuenta/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Sorteo/Delete/5
+        // POST: Cuenta/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
             try
             {
                 // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Sorteo/AgregarPostulante
-        public ActionResult AgregarPostulante(int id, Dominio.Models.Usuario p)
-        {
-            List<Dominio.Models.Sorteo> s = new List<Dominio.Models.Sorteo>();
-            s.Sort();
-            ViewBag.Sorteos = s;
-            return View();
-        }
-
-        // POST: Sorteo/AgregarPostulante/5
-        [HttpPost]
-        public ActionResult AgregarPostulante(int id, /*Postulante*/Object p)
-        {
-            try
-            {
-                // TO-DO: Agregar el postulante.
 
                 return RedirectToAction("Index");
             }

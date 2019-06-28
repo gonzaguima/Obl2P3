@@ -9,3 +9,6 @@ SIstemaViviendas/SIstemaViviendas/SIstemaViviendas.csproj.user
 *.config
 *.cache
 *.cache
+SIstemaViviendas/.vs/config/applicationhost.config
+SIstemaViviendas/.vs/SIstemaViviendas/v14/.suo
+*.cache

@@ -5,12 +5,12 @@
 
 <h2>Agregar Postulante</h2>
 
-@if (Session.User != 'ganador')
+@if (Session["User"] != null) //.sorteo == null ahi se si tiene sorteo ganado o no
 {
     <select id="sorteo">
         <option value="0">Seleccione un sorteo para ver</option>
-        @foreach (var i in Sorteos) @*Ordenar primero los no sorteados luego los sorteados*@
-        {
+        @foreach (var i in ViewBag.Sorteos) 
+        { @*Ordenar primero los no sorteados luego los sorteados*@
             <option value="i.idSorteo">@i.Barrio, @i.fecha</option>
         }
         @*Ver como filtrar por tipo de usuarios*@

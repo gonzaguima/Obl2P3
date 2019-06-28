@@ -27,7 +27,7 @@ namespace Dominio.Models
 
         [Required]
         [StringLength(18, ErrorMessage = "La {0} debe tener por lo menos {2} caracteres.", MinimumLength = 6)]
-        [RegularExpression(@"^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)).+$"]
+        [RegularExpression(@"^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)).+$")]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string pass { get; set; } //pass usuario
