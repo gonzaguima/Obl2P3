@@ -7,7 +7,7 @@
 
 <select id="sorteo">
     <option value="0">Seleccione un sorteo para ver</option>
-    @foreach (var i in ViewBag.viviendas) @*Ordenar primero los no sorteados luego los sorteados*@
+    @foreach (var i in Viviendas) @*Ordenar primero los no sorteados luego los sorteados*@
     {
         <option value="i.idVivienda">@i.Direccion, @i.Numero</option>
     }

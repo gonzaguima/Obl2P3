@@ -86,14 +86,6 @@ namespace SIstemaViviendas.Controllers
             }
         }
 
-        public ActionResult AgregarPosutlante(int id, Object p)
-        {
-            List<Dominio.Models.Sorteo> s = new List<Dominio.Models.Sorteo>(); //tomar la lista de sorteos.
-            s.Sort();
-            ViewBag.sorteos = s;
-            return View();
-        }
-
         // POST: Sorteo/AgregarPostulante/5
         [HttpPost]
         public ActionResult AgregarPostulante(int id, /*Postulante*/Object p)
