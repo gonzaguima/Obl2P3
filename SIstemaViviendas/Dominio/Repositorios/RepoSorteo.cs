@@ -8,7 +8,7 @@ using Dominio.Models;
 
 namespace Dominio.Repositorios
 {
-    class RepoSorteo : IRepoSorteo
+    public class RepoSorteo : IRepoSorteo
     {
         public bool add(Sorteo s)
         {

@@ -16,10 +16,10 @@ namespace SIstemaViviendas.Controllers
 
         //POST: Login
         [HttpPost]
-        public ActionResult Login(string user, string pass)
+        public ActionResult Login(int user, string pass)
         {
-            //Dominio.Models.Usuario u = Dominio.Repo.VarlidarUsuario(user, pass);
-            if (true) //user y pass validos
+            Dominio.Models.Usuario u = Dominio.Repositorios.RepoUsuario.buscarPorCi(user);
+            if () //user y pass validos
             {
                 Session["User"] = user;
 

@@ -8,7 +8,7 @@ using Dominio.Models;
 
 namespace Dominio.Repositorios
 {
-    class RepoUsuario : IRepoUsuario
+    public class RepoUsuario : IRepoUsuario
     {
         public bool add(Usuario u)
         {

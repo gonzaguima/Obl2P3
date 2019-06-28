@@ -10,7 +10,7 @@ using System.Diagnostics;
 
 namespace Dominio.Repositorios
 {
-    class RepoBarrio : IRepoBarrio
+    public class RepoBarrio : IRepoBarrio
     {
         public bool add(Barrio b)
         {
