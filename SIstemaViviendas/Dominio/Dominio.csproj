@@ -61,9 +61,10 @@
     <Compile Include="Clases\Usada.cs" />
     <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Clases\Vivienda.cs" />
-    <Compile Include="Repositorios\RepoBarrio.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Repositorios\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
