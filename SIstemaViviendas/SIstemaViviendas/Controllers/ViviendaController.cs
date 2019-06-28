@@ -45,6 +45,9 @@ namespace SIstemaViviendas.Controllers
         // GET: Vivienda/Edit/5
         public ActionResult Edit(int id)
         {
+            List<Dominio.Models.Vivienda> v = new List<Dominio.Models.Vivienda>();
+            v.Sort();
+            ViewBag.Viviendas = v;
             return View();
         }
 
