@@ -18,15 +18,25 @@ namespace SIstemaViviendas.Controllers
         [HttpPost]
         public ActionResult Login(int user, string pass)
         {
-            Dominio.Models.Usuario u = Dominio.Repositorios.RepoUsuario.buscarPorCi(user);
-            if () //user y pass validos
+            Dominio.Repositorios.RepoUsuario repoU = new Dominio.Repositorios.RepoUsuario();
+            Dominio.Models.Usuario u = repoU.buscarPorCi(user);
+            if (u != null)
             {
-                Session["User"] = user;
-
-                return View();
+                if (repoU.login(u)) //user y pass validos
+                {
+                    Session["User"] = user;
+                    ViewBag.resultado = "Usuario valido.";
+                    return Redirect("~/home/index");
+                }
+                else
+                {
+                    ViewBag.resultado = "Contraseña incorrecta";
+                    return View();
+                } 
             }
             else
             {
+                ViewBag.resultado = "Usuario incorrecto";
                 return View();
             }
         }
