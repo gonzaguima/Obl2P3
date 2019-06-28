@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Dominio.Models
 {
+    // cual es la vista
     public class Usuario
     {
         [Required(ErrorMessage = "Cédula requerida")]
@@ -35,7 +36,7 @@ namespace Dominio.Models
         public bool esJefe { get; set; } // si es 
 
         [Required(ErrorMessage = "Año de la vivienda requerido")]
-        [Range(fechaNac.AddYears(18), DateTime.Today, ErrorMessage = "Año debe ser mayor a 1990")]
+        //[Range(DateTime.Now.Year - 18, DateTime.Now, ErrorMessage = "Año debe ser mayor a 1990")]
         public DateTime fechaNac { get; set; } //fecha de nacimiento, mayor de 18
 
         public virtual ICollection<Sorteo> sorteos { get; set; } // coleccion de sorteos del usuario

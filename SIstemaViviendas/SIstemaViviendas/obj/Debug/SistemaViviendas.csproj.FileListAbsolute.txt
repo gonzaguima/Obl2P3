@@ -69,7 +69,6 @@ C:\Users\gonza\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\Microsoft.Ow
 C:\Users\gonza\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SIstemaViviendas.csprojResolveAssemblyReference.cache
 C:\Users\gonza\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SIstemaViviendas.dll
 C:\Users\gonza\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SIstemaViviendas.pdb
-<<<<<<< HEAD
 C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\roslyn\csc.exe
 C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -139,7 +138,6 @@ C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\Microsoft.Owi
 C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SistemaViviendas.csprojResolveAssemblyReference.cache
 C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SIstemaViviendas.dll
 C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SIstemaViviendas.pdb
-=======
 C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\roslyn\csc.exe
 C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -211,4 +209,3 @@ C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\SIstemaViviendas\bin\Mic
 C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SistemaViviendas.csprojResolveAssemblyReference.cache
 C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SIstemaViviendas.dll
 C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\SIstemaViviendas\obj\Debug\SIstemaViviendas.pdb
->>>>>>> 56c17eb000c2519e2733a0a67c73839cffb639c6

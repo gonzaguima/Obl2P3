@@ -9,7 +9,7 @@ namespace SIstemaViviendas.Controllers
     public class CuentaController : Controller
     {
         // GET: Cuenta
-        public ActionResult Index()
+        public ActionResult Login()
         {
             return View();
         }
