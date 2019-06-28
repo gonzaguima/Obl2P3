@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio.Models
 {
@@ -26,5 +27,14 @@ namespace Dominio.Models
         public List<Usuario> inscriptos { get; set; } //lista de usuarios inscriptos 
 
         public Usuario adjudicatario { get; set; } // usuario ganador
+
+        public Usuario sortear()
+        {
+            Random r = new Random();
+            this.adjudicatario = ((List<Usuario>)inscriptos)[r.Next(inscriptos.Count)];
+            this.adjudicatario.sorteo = this;
+            this.adjudicatario.sorteos.Clear();
+            return this.adjudicatario;
+        }
     }
 }
