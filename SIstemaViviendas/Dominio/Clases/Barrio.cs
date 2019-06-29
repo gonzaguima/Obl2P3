@@ -5,14 +5,16 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio.Models
 {
-    [Table("Barrio")]
+    [Table("Barrio")] 
     public class Barrio
     {   
+        [Key]
         public int id { get; set; }
-        [key]
+        
         [Required (ErrorMessage = "Nombre del barrio requerido")]
         [StringLength(50, ErrorMessage = "El {0} debe tener al menos {2} caracteres.", MinimumLength = 3)]
         public string nombre { get; set; } //nombre del barrio

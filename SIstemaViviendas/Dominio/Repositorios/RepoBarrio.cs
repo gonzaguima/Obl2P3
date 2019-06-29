@@ -136,7 +136,7 @@ namespace Dominio.Repositorios
                 {
                     if (false) // validar barrio
                     {
-                        errores.Add("Nombre o descripcion no válida#" + b.ToString());
+                        //errores.Add("Nombre o descripcion no válida#" + b.ToString());
                         imported = false;
                     }
                     else
