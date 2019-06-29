@@ -1,1 +1,10 @@
 C:\Users\USER\Desktop\Obl2P3\SIstemaViviendas\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\obj\Debug\Dominio.dll
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\bin\Debug\Dominio.dll
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pingo\Documents\GitHub\Obl2P3\SIstemaViviendas\Dominio\obj\Debug\Dominio.pdb

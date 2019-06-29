@@ -62,6 +62,9 @@
     <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Clases\Vivienda.cs" />
     <Compile Include="Repositorios\RepoBarrio.cs" />
+    <Compile Include="Repositorios\RepoSorteo.cs" />
+    <Compile Include="Repositorios\RepoUsuario.cs" />
+    <Compile Include="Repositorios\RepoVivienda.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

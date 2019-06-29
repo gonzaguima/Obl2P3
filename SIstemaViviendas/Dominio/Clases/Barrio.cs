@@ -15,6 +15,7 @@ namespace Dominio.Models
         [Key]
         public int id { get; set; }
         
+
         [Required (ErrorMessage = "Nombre del barrio requerido")]
         [StringLength(50, ErrorMessage = "El {0} debe tener al menos {2} caracteres.", MinimumLength = 3)]
         public string nombre { get; set; } //nombre del barrio

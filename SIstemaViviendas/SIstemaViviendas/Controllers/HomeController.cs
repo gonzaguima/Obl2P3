@@ -10,7 +10,7 @@ namespace SistemaViviendas.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return Redirect("~/Cuenta/Index");
         }
 
         public ActionResult About()
